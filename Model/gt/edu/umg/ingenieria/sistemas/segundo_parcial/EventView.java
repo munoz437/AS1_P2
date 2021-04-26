@@ -5,12 +5,12 @@ import java.util.*;
 /**
  * 
  */
-public class OperatorView {
+public class EventView {
 
     /**
      * Default constructor
      */
-    public OperatorView() {
+    public EventView() {
     }
 
 }

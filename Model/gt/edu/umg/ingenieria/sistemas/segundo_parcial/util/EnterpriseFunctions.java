@@ -1,5 +1,6 @@
 package gt.edu.umg.ingenieria.sistemas.segundo_parcial.util;
 
+import gt.edu.umg.ingenieria.sistemas.segundo_parcial.model.EnterpriseEntity;
 import java.util.*;
 
 /**

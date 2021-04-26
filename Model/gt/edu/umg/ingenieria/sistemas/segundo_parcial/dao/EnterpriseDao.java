@@ -1,5 +1,6 @@
 package gt.edu.umg.ingenieria.sistemas.segundo_parcial.dao;
 
+import gt.edu.umg.ingenieria.sistemas.segundo_parcial.model.EnterpriseEntity;
 import java.util.*;
 
 /**
@@ -18,8 +19,7 @@ public class EnterpriseDao {
      * @return
      */
     public void createEnterprise(EnterpriseEntity enterprise) {
-        // TODO implement here
-        return null;
+       
     }
 
     /**
@@ -36,8 +36,7 @@ public class EnterpriseDao {
      * @return
      */
     public void updateEnterprise(EnterpriseEntity enterprise) {
-        // TODO implement here
-        return null;
+        
     }
 
     /**
@@ -45,8 +44,7 @@ public class EnterpriseDao {
      * @return
      */
     public void deleteEnterprise(int id) {
-        // TODO implement here
-        return null;
+        
     }
 
 }

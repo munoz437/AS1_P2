@@ -5,12 +5,12 @@ import java.util.*;
 /**
  * 
  */
-public abstract class OperatorEntity {
+public abstract class EventEntity {
 
     /**
      * Default constructor
      */
-    public OperatorEntity() {
+    public EventEntity() {
     }
 
     /**
@@ -21,17 +21,17 @@ public abstract class OperatorEntity {
     /**
      * 
      */
-    private String position;
+    private String date;
 
     /**
      * 
      */
-    private String email;
+    private String description;
 
     /**
      * 
      */
-    private String telephone;
+    private String contact;
 
     /**
      * 
@@ -51,59 +51,55 @@ public abstract class OperatorEntity {
      * @return
      */
     public void setName(String name) {
-        // TODO implement here
-        return null;
+       
     }
 
     /**
      * @return
      */
-    public String getPosition() {
+    public String getDate() {
         // TODO implement here
         return "";
     }
 
     /**
-     * @param position 
+     * @param date 
      * @return
      */
-    public void setPosition(String position) {
-        // TODO implement here
-        return null;
+    public void setDate(String date) {
+        
     }
 
     /**
      * @return
      */
-    public String getEmail() {
+    public String getDescription() {
         // TODO implement here
         return "";
     }
 
     /**
-     * @param email 
+     * @param description 
      * @return
      */
-    public void setEmail(String email) {
-        // TODO implement here
-        return null;
+    public void setDescription(String description) {
+        
     }
 
     /**
      * @return
      */
-    public String getTelephone() {
+    public String getContact() {
         // TODO implement here
         return "";
     }
 
     /**
-     * @param telephone 
+     * @param contact 
      * @return
      */
-    public void setTelephone(String telephone) {
-        // TODO implement here
-        return null;
+    public void setContact(String contact) {
+        
     }
 
     /**
@@ -119,8 +115,7 @@ public abstract class OperatorEntity {
      * @return
      */
     public void setId(int id) {
-        // TODO implement here
-        return null;
+        
     }
 
 }

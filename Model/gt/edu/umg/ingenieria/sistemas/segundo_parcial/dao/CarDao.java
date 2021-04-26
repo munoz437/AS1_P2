@@ -1,5 +1,6 @@
 package gt.edu.umg.ingenieria.sistemas.segundo_parcial.dao;
 
+import gt.edu.umg.ingenieria.sistemas.segundo_parcial.model.CarEntity;
 import java.util.*;
 
 /**
@@ -18,8 +19,7 @@ public class CarDao {
      * @return
      */
     public void createCar(CarEntity car) {
-        // TODO implement here
-        return null;
+        
     }
 
     /**
@@ -36,8 +36,7 @@ public class CarDao {
      * @return
      */
     public void updateCar(CarEntity car) {
-        // TODO implement here
-        return null;
+       
     }
 
     /**
@@ -45,8 +44,7 @@ public class CarDao {
      * @return
      */
     public void deleteCar(int id) {
-        // TODO implement here
-        return null;
+       
     }
 
     /**
