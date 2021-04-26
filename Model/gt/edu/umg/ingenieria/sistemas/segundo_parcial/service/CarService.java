@@ -20,7 +20,7 @@ public class CarService {
     public CarEntity getCar(int id) {
       CarDao dao = new CarDao();
       
-      CarEntity car = dao.readCarById(45);
+      CarEntity car = dao.readCarById(id);
         return car;
     }
 
