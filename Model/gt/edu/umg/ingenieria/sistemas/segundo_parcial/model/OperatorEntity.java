@@ -5,12 +5,12 @@ import java.util.*;
 /**
  * 
  */
-public abstract class EventEntity {
+public abstract class OperatorEntity {
 
     /**
      * Default constructor
      */
-    public EventEntity() {
+    public OperatorEntity() {
     }
 
     /**
@@ -21,17 +21,17 @@ public abstract class EventEntity {
     /**
      * 
      */
-    private String date;
+    private String position;
 
     /**
      * 
      */
-    private String description;
+    private String email;
 
     /**
      * 
      */
-    private String contact;
+    private String telephone;
 
     /**
      * 
@@ -51,55 +51,59 @@ public abstract class EventEntity {
      * @return
      */
     public void setName(String name) {
-       
+        // TODO implement here
+        return null;
     }
 
     /**
      * @return
      */
-    public String getDate() {
+    public String getPosition() {
         // TODO implement here
         return "";
     }
 
     /**
-     * @param date 
+     * @param position 
      * @return
      */
-    public void setDate(String date) {
-        
+    public void setPosition(String position) {
+        // TODO implement here
+        return null;
     }
 
     /**
      * @return
      */
-    public String getDescription() {
+    public String getEmail() {
         // TODO implement here
         return "";
     }
 
     /**
-     * @param description 
+     * @param email 
      * @return
      */
-    public void setDescription(String description) {
-        
+    public void setEmail(String email) {
+        // TODO implement here
+        return null;
     }
 
     /**
      * @return
      */
-    public String getContact() {
+    public String getTelephone() {
         // TODO implement here
         return "";
     }
 
     /**
-     * @param contact 
+     * @param telephone 
      * @return
      */
-    public void setContact(String contact) {
-        
+    public void setTelephone(String telephone) {
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -115,7 +119,8 @@ public abstract class EventEntity {
      * @return
      */
     public void setId(int id) {
-        
+        // TODO implement here
+        return null;
     }
 
 }

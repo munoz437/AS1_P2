@@ -1,5 +1,6 @@
 package gt.edu.umg.ingenieria.sistemas.segundo_parcial.service;
 
+import gt.edu.umg.ingenieria.sistemas.segundo_parcial.dao.EnterpriseDao;
 import gt.edu.umg.ingenieria.sistemas.segundo_parcial.model.EnterpriseEntity;
 import java.util.*;
 
@@ -19,8 +20,9 @@ public class EnterpriseService {
      * @return
      */
     public EnterpriseEntity getEnterprise(int id) {
-        // TODO implement here
-        return null;
+         EnterpriseDao dao = new EnterpriseDao();
+         EnterpriseEntity emp=dao.readEnterprise(id);
+        return emp;
     }
 
     /**
@@ -28,7 +30,8 @@ public class EnterpriseService {
      * @return
      */
     public void createEnterprise(EnterpriseEntity enterprise) {
-       
+       EnterpriseDao dao = new EnterpriseDao();
+       dao.createEnterprise(enterprise);
     }
 
     /**
@@ -36,7 +39,8 @@ public class EnterpriseService {
      * @return
      */
     public void updateEnterprise(EnterpriseEntity enterprise) {
-       
+        EnterpriseDao dao = new EnterpriseDao();
+       dao.createEnterprise(enterprise);
     }
 
     /**
@@ -44,6 +48,8 @@ public class EnterpriseService {
      * @return
      */
     public void deleteEnterprise(int id) {
+        EnterpriseDao dao = new EnterpriseDao();
+        dao.deleteEnterprise(id);
         
     }
 

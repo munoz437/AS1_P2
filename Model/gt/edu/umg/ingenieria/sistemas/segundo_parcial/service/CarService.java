@@ -1,5 +1,6 @@
 package gt.edu.umg.ingenieria.sistemas.segundo_parcial.service;
 
+import gt.edu.umg.ingenieria.sistemas.segundo_parcial.dao.CarDao;
 import gt.edu.umg.ingenieria.sistemas.segundo_parcial.model.CarEntity;
 import java.util.*;
 
@@ -8,9 +9,7 @@ import java.util.*;
  */
 public class CarService {
 
-    /**
-     * Default constructor
-     */
+    
     public CarService() {
     }
 
@@ -19,8 +18,10 @@ public class CarService {
      * @return
      */
     public CarEntity getCar(int id) {
-        // TODO implement here
-        return null;
+      CarDao dao = new CarDao();
+      
+      CarEntity car = dao.readCarById(45);
+        return car;
     }
 
     /**
@@ -28,7 +29,8 @@ public class CarService {
      * @return
      */
     public void createCar(CarEntity car) {
-       
+       CarDao dao = new CarDao();
+       dao.createCar(car);
     }
 
     /**
@@ -36,7 +38,8 @@ public class CarService {
      * @return
      */
     public void updateCar(CarEntity car) {
-        
+         CarDao dao = new CarDao();
+       dao.createCar(car);
     }
 
     /**
@@ -44,7 +47,8 @@ public class CarService {
      * @return
      */
     public void deleteCar(int id) {
-       
+       CarDao dao = new CarDao();
+       dao.deleteCar(id);
     }
 
     /**

@@ -46,7 +46,8 @@ public abstract class CarEntity {
      * @return
      */
     public void setBrand(String brand) {
-        
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -62,7 +63,8 @@ public abstract class CarEntity {
      * @return
      */
     public void setModel(String model) {
-       
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -78,7 +80,8 @@ public abstract class CarEntity {
      * @return
      */
     public void setPrice(double price) {
-       
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -94,7 +97,8 @@ public abstract class CarEntity {
      * @return
      */
     public void setId(int id) {
-        
+        // TODO implement here
+        return null;
     }
 
 }

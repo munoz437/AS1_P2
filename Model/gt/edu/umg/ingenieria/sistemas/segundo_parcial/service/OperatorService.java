@@ -1,5 +1,6 @@
 package gt.edu.umg.ingenieria.sistemas.segundo_parcial.service;
 
+import gt.edu.umg.ingenieria.sistemas.segundo_parcial.dao.EventDao;
 import gt.edu.umg.ingenieria.sistemas.segundo_parcial.model.EventEntity;
 import java.util.*;
 
@@ -19,8 +20,9 @@ public class EventService {
      * @return
      */
     public EventEntity getEvent(int id) {
-        // TODO implement here
-        return null;
+        EventDao dao = new EventDao();
+       EventEntity event=dao.readEvent(id);
+        return event;
     }
 
     /**
@@ -28,7 +30,8 @@ public class EventService {
      * @return
      */
     public void createEvent(EventEntity event) {
-       
+       EventDao dao = new EventDao();
+       dao.createEvent(event);
     }
 
     /**
@@ -36,7 +39,8 @@ public class EventService {
      * @return
      */
     public void updateEvent(EventEntity event) {
-        
+        EventDao dao = new EventDao();
+       dao.createEvent(event);
     }
 
     /**
@@ -44,7 +48,8 @@ public class EventService {
      * @return
      */
     public void deleteEvent(int id) {
-        
+        EventDao dao = new EventDao();
+       dao.deleteEvent(id);
     }
 
 }

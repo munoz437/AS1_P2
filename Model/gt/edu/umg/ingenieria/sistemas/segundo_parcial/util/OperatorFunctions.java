@@ -1,17 +1,16 @@
 package gt.edu.umg.ingenieria.sistemas.segundo_parcial.util;
 
-import gt.edu.umg.ingenieria.sistemas.segundo_parcial.model.CarEntity;
 import java.util.*;
 
 /**
  * 
  */
-public class EventFunctions {
+public class OperatorFunctions {
 
     /**
      * Default constructor
      */
-    public EventFunctions() {
+    public OperatorFunctions() {
     }
 
     /**
@@ -19,7 +18,8 @@ public class EventFunctions {
      * @return
      */
     public void scheduleAppointment(String date) {
-        
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -27,7 +27,8 @@ public class EventFunctions {
      * @return
      */
     public void generateGraph(CarEntity car) {
-        
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -35,7 +36,8 @@ public class EventFunctions {
      * @return
      */
     public void generateReport(CarEntity car) {
-       
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -43,7 +45,8 @@ public class EventFunctions {
      * @return
      */
     public void printReport(CarEntity car) {
-        
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -51,7 +54,8 @@ public class EventFunctions {
      * @return
      */
     public void scheduleEvent(String date) {
-       
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -59,7 +63,8 @@ public class EventFunctions {
      * @return
      */
     public void sendReport(CarEntity car) {
-       
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -67,7 +72,8 @@ public class EventFunctions {
      * @return
      */
     public void notifyByEmail(String date) {
-      
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -75,7 +81,8 @@ public class EventFunctions {
      * @return
      */
     public void AddToCalendar(String date) {
-       
+        // TODO implement here
+        return null;
     }
 
 }

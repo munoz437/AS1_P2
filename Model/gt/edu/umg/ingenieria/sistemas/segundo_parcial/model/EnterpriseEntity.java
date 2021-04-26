@@ -66,7 +66,8 @@ public abstract class EnterpriseEntity {
      * @return
      */
     public void setCommercialName(String commercialName) {
-       
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -82,7 +83,8 @@ public abstract class EnterpriseEntity {
      * @return
      */
     public void setLegalName(String legalName) {
-       
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -98,7 +100,8 @@ public abstract class EnterpriseEntity {
      * @return
      */
     public void setContactPerson(String contactPerson) {
-        
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -114,7 +117,8 @@ public abstract class EnterpriseEntity {
      * @return
      */
     public void setEmail(String email) {
-        
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -130,7 +134,8 @@ public abstract class EnterpriseEntity {
      * @return
      */
     public void setFiscalAddress(String fiscalAddress) {
-        
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -146,7 +151,8 @@ public abstract class EnterpriseEntity {
      * @return
      */
     public void setTelephone(String telephone) {
-        
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -162,7 +168,8 @@ public abstract class EnterpriseEntity {
      * @return
      */
     public void setNIT(String NIT) {
-        
+        // TODO implement here
+        return null;
     }
 
     /**
@@ -178,7 +185,8 @@ public abstract class EnterpriseEntity {
      * @return
      */
     public void setId(int id) {
-        
+        // TODO implement here
+        return null;
     }
 
 }

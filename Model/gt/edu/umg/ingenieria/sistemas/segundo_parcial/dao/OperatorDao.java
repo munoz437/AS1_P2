@@ -5,19 +5,19 @@ import java.util.*;
 /**
  * 
  */
-public class EnterpriseDao {
+public class OperatorDao {
 
     /**
      * Default constructor
      */
-    public EnterpriseDao() {
+    public OperatorDao() {
     }
 
     /**
-     * @param enterprise 
+     * @param operator 
      * @return
      */
-    public void createEnterprise(EnterpriseEntity enterprise) {
+    public void createOperator(OperatorEntity operator) {
         // TODO implement here
         return null;
     }
@@ -26,16 +26,16 @@ public class EnterpriseDao {
      * @param id 
      * @return
      */
-    public EnterpriseEntity readEnterprise(int id) {
+    public OperatorEntity readOperator(int id) {
         // TODO implement here
         return null;
     }
 
     /**
-     * @param enterprise 
+     * @param operator 
      * @return
      */
-    public void updateEnterprise(EnterpriseEntity enterprise) {
+    public void updateOperator(OperatorEntity operator) {
         // TODO implement here
         return null;
     }
@@ -44,7 +44,7 @@ public class EnterpriseDao {
      * @param id 
      * @return
      */
-    public void deleteEnterprise(int id) {
+    public void deleteOperator(int id) {
         // TODO implement here
         return null;
     }
